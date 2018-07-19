@@ -3,6 +3,11 @@
 Build with maven to obtain the opencsv dependency.
 e.g: "mvn package"
 
+Input:
+Stdin: The file path of a .csv file to be validated.
+Stdout: The contents of a newly created, validated .csv file
+New csv file by the same name as the old, with "new_" prepended to the file name.
+
 Validate a CSV file with the following rules:
 
 
